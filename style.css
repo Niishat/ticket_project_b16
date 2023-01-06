@@ -1,15 +1,54 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-/* p{
-    color: red;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-} */
+body,p,span{
+    font-family: 'Roboto', sans-serif;
 
-.headerlogo  img{
-    height: 40px;
-    
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+/* Header Logo Size  */
+.gobuslogo img{
+    height: 60px;
+    /* height: 60px; */
+    width: auto;
+}
+
+/* begin css */
+
+/* Menu */
+ul.our-primary-menu {}
+ul.our-primary-menu li{}
+ul.our-primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2FAA45;
+    /* color: #F07C19; */
+    font-weight: 500;
+}
+ul.our-primary-menu li a:hover{
+    color: #F07C19;
+    transition: .3s;
+}
+
+.header-info{}
+.header-search{
+    font-size: 22px;
+    text-align: center;
+    width: 60px;
+    border-right: 1px solid #F07C19;
+}
+.header-call{
+    width: 100px;
+}
+.header-call-icon{
+    font-size: 26px;
+    color: #F07C19;
+}
+.header-call-icon:hover{
+    color: #2FAA45;
+    transition: .3s;
+}
+.header-call-info{
+    color: #2FAA45;
+    font-weight: 700;
 }
