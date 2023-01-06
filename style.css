@@ -7,10 +7,11 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .g{
     color: #2FAA45;
-    
+    font-weight: 600;
 }
 .o{
     color: #F07C19;
+    font-weight: 500;
 }
 /* Header Logo Size  */
 .gobuslogo img{
@@ -109,4 +110,15 @@ ul.our-primary-menu li a:hover{
   .bus-carosel img{
     /* height: 90vh; */
     /* height: 545px; */
+  }
+
+  /* -----------------------------------------                         ------------------------------------- */
+  /* -----------------------------------------     ticket from - too      ------------------------------------- */
+  /* -----------------------------------------                         ------------------------------------- */
+  .ticket-start-end{
+    background: rgb(223, 219, 219);
+    height: 300px;
+  }
+  .select-ticket-plan img{
+    height: 160px;
   }
