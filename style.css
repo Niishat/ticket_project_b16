@@ -38,7 +38,7 @@ ul.our-primary-menu li a:hover{
     border-right: 1px solid #F07C19;
 }
 .header-call{
-    width: 100px;
+    width: 180px;
 }
 .header-call-icon{
     font-size: 26px;
@@ -52,3 +52,17 @@ ul.our-primary-menu li a:hover{
     color: #2FAA45;
     font-weight: 700;
 }
+.header-call-info a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* _______________________________ */
+.animate__tada {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: tada infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.3s; /* don't forget to set a duration! */
+  }
