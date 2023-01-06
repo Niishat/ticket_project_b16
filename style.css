@@ -66,3 +66,12 @@ ul.our-primary-menu li a:hover{
     animation: tada infinite; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1.3s; /* don't forget to set a duration! */
   }
+
+  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+  .bus-carosel img{
+    /* height: 90vh; */
+    /* height: 545px; */
+  }
