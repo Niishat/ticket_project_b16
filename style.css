@@ -5,12 +5,39 @@ body,p,span{
 h1,h2,h3,h4,h5,h6,a{
     font-family: 'Rubik', sans-serif;
 }
+.g{
+    color: #2FAA45;
+    
+}
+.o{
+    color: #F07C19;
+}
 /* Header Logo Size  */
 .gobuslogo img{
     height: 60px;
     /* height: 60px; */
     width: auto;
 }
+.searchicon{
+    animation: colorchange 20s infinite;
+}
+@keyframes colorchange {
+    0% {
+      color: #2FAA45;
+    }
+    25% {
+      color: #F07C19;
+    }
+    50% {
+      color: #2FAA45;
+    }
+    75% {
+      color: #F07C19;
+    }
+    100% {
+      color: #2FAA45;
+    }
+  }
 
 /* begin css */
 
@@ -69,8 +96,14 @@ ul.our-primary-menu li a:hover{
 
   /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
   /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
-  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
-  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+  /* -------------------------------------                 animation too                             --------------------------------------------- */
+  /* -------------------------------------                  bus animation                           --------------------------------------------- */
+.png-bus-right img{
+    height: 50px;
+  }
+.png-bus-left img{
+    height: 100px;
+  }
   .bus-carosel img{
     /* height: 90vh; */
     /* height: 545px; */
