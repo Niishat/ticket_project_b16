@@ -1,0 +1,253 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+.g{
+    color: #2FAA45;
+    font-weight: 600;
+}
+.o{
+    color: #F07C19;
+    font-weight: 500;
+}
+/* Header Logo Size  */
+.gobuslogo img{
+    height: 60px;
+    /* height: 60px; */
+    width: auto;
+}
+.animate__pulse {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: swing infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5.3s; /* don't forget to set a duration! */
+}
+.searchicon{
+    animation: colorchange 20s infinite;
+}
+@keyframes colorchange {
+    0% {
+      color: #2FAA45;
+    }
+    25% {
+      color: #F07C19;
+    }
+    50% {
+      color: #2FAA45;
+    }
+    75% {
+      color: #F07C19;
+    }
+    100% {
+      color: #2FAA45;
+    }
+  }
+
+/* begin css */
+
+/* Menu */
+ul.our-primary-menu {}
+ul.our-primary-menu li{}
+ul.our-primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2FAA45;
+    /* color: #F07C19; */
+    font-weight: 500;
+}
+ul.our-primary-menu li a:hover{
+    color: #F07C19;
+    transition: .3s;
+}
+
+.header-info{}
+.header-search{
+    font-size: 22px;
+    text-align: center;
+    width: 60px;
+    border-right: 1px solid #F07C19;
+}
+.header-call{
+    width: 180px;
+}
+.header-call-icon{
+    font-size: 26px;
+    color: #F07C19;
+}
+.header-call-icon:hover{
+    color: #2FAA45;
+    transition: .3s;
+}
+.header-call-info{
+    color: #2FAA45;
+    font-weight: 700;
+}
+.header-call-info a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* _______________________________ */
+.animate__tada {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: tada infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.3s; /* don't forget to set a duration! */
+  }
+
+
+
+
+/* ___________________________________________________________________________________________ */
+
+
+.h2text1{
+    margin: 20px 0 50px 0;
+    color: #0F2444;
+    font-size: 28px;
+    line-height: 80px;
+    border-bottom: 1px solid #00674766;
+    font-family: "Bw Helder", Helvetica, sans-serif;
+}
+.hello1{
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    max-width: 768px;
+    border-radius: 4px;
+    box-shadow: 0 0 13px 0px #d4d4d4;
+}
+.loginheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* butttom */
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #070b1f;
+} */
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.hello876{
+    display: flex;
+    justify-content: center;
+}
+.container221{
+    margin: 0;
+    padding: 0;
+}
+.heybut{
+    width: 180px !important;
+    padding: 0 !important;
+    height: 50px !important;
+    
+}
+.container221 a{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+    background-color: #ffff;
+}
+.container221 a:before, .container221 a:after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #f00;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.container221 a:nth-child(1):before, 
+.container221 a:nth-child(1):after{
+    background: linear-gradient(45deg, #00ccff, #173dff, #173dff, #d400d4);
+}
+.container221 a:nth-child(2):before, 
+.container221 a:nth-child(2):after{
+    background: linear-gradient(45deg, #ff075b, #173dff, #173dff, #1aff22);
+}
+
+.container221 a:hover:before {
+    inset: -3px;
+}
+.container221 a:hover:after {
+    inset: -3px;
+    filter: blur(10px);
+}
+.container221 a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: #173dff;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #040a29;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.container221 a span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
+    transform: skew(25deg);
+}
+
+
+.hello1231{
+    border-top: 3px solid blue;
+}
+.hello1231 .conten112{
+    text-align: center;
+}
+.hello1231 .conten112 a{
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+    color: #040a29;
+    font-weight: 600;
+}
+.hello1231 .conten112 a:hover{
+    text-decoration: underline;
+    color: #d400d4;
+}
+.hello1231 .conten112 h1{
+    display: inline-block;
+    font-size: 10px;
+}

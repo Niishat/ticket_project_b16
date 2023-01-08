@@ -1,0 +1,284 @@
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+.g{
+    color: #2FAA45;
+    font-weight: 600;
+}
+.o{
+    color: #F07C19 !important;
+    font-weight: 500;
+}
+/* Header Logo Size  */
+.gobuslogo img{
+    height: 60px;
+    /* height: 60px; */
+    width: auto;
+}
+.animate__pulse {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: swing infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5.3s; /* don't forget to set a duration! */
+}
+.searchicon{
+    animation: colorchange 20s infinite;
+}
+@keyframes colorchange {
+    0% {
+      color: #2FAA45;
+    }
+    25% {
+      color: #F07C19;
+    }
+    50% {
+      color: #2FAA45;
+    }
+    75% {
+      color: #F07C19;
+    }
+    100% {
+      color: #2FAA45;
+    }
+  }
+
+/* begin css */
+
+/* Menu */
+ul.our-primary-menu {}
+ul.our-primary-menu li{}
+ul.our-primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2FAA45;
+    /* color: #F07C19; */
+    font-weight: 500;
+}
+ul.our-primary-menu li a:hover{
+    color: #F07C19;
+    transition: .3s;
+}
+
+.header-info{}
+.header-search{
+    font-size: 22px;
+    text-align: center;
+    width: 60px;
+    border-right: 1px solid #F07C19;
+}
+.header-call{
+    width: 180px;
+}
+.header-call-icon{
+    font-size: 26px;
+    color: #F07C19;
+}
+.header-call-icon:hover{
+    color: #2FAA45;
+    transition: .3s;
+}
+.header-call-info{
+    color: #2FAA45;
+    font-weight: 700;
+}
+.header-call-info a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* _______________________________ */
+.animate__tada {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: tada infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.3s; /* don't forget to set a duration! */
+  }
+
+  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+  /* -------------------------------------               bus Carosel slider                               --------------------------------------------- */
+
+
+
+
+
+.loginheader{
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 730px;
+}
+
+/* login */
+.logindiv{
+    display: flex;
+    justify-content: center;
+}
+.logindiv2 {
+    height: 350px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 20px;
+    box-shadow: 4px 4px 24px -16px;
+}
+.logindiv2 form input{
+    margin: 20px 0;
+    width: 360px;
+    height: 50px;
+    margin-top: -1px;
+    margin-bottom: 14px;
+}
+
+/* butttom */
+
+*{   
+    box-sizing: border-box !important;
+}
+.button-btn{
+    display: flex;
+    justify-content: center;
+}
+.content421{
+    width: 355px !important;
+    height: 50px !important;
+}
+.content421 a{
+    width: 355px !important;
+    height: 50px !important;
+}
+.container3312{
+    margin: 0;
+    padding: 0;
+}
+.heybut{
+    /* width: 180px !important; */
+    padding: 0 !important;
+    /* height: 50px !important; */
+}
+.container3312 a{
+    position: relative;
+    /* width: 180px;
+    height: 50px; */
+    display: inline-block;
+    background-color: #ffff;
+}
+.container3312 a:before, .container3312 a:after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #f00;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.container3312 a:nth-child(1):before, 
+.container3312 a:nth-child(1):after{
+    background: linear-gradient(45deg, #00ccff, #173dff, #173dff, #d400d4);
+}
+.container3312 a:nth-child(2):before, 
+.container3312 a:nth-child(2):after{
+    background: linear-gradient(45deg, #ff075b, #173dff, #173dff, #1aff22);
+}
+
+.container3312 a:hover:before {
+    inset: -3px;
+}
+.container3312 a:hover:after {
+    inset: -3px;
+    filter: blur(10px);
+}
+.container3312 a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: #173dff;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #040a29;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.container3312 a span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
+    transform: skew(25deg);
+}
+
+/* forget */
+
+.forgatediv{
+    text-decoration: none;
+    padding: 17px 105px;
+}
+.underlinediv {
+    height: 1px;
+    width: 359px;
+    background: rgb(212, 212, 212);
+}
+
+/* new account Button*/
+
+.button-btn-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content860{
+    width: 200px !important;
+    height: 50px !important;
+}
+.content860 a{
+    width: 200px;
+    height: 50px;
+}
+.content860 a span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* niche */
+
+.textoo121{
+    display: flex;
+    justify-content: center;
+}
+.textoo121 h3 {
+    /* height: 120px; */
+    width: 400px;
+    font-size: 15px;
+    text-align: center;
+    margin: 21px 0;
+    color: black;
+}
+.textoo121 h3 a{
+    color: black;
+}
+.textoo121 h3 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* footer */
