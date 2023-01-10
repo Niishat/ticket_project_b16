@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Roboto', sans-serif;
+}
+.mid-content{
+    max-width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.t-center{
+    text-align: center;
+}
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/* header */
+.header{
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 0 rgb(0 0 0 / 20%);
+    position: sticky;
+    top: 0;
+}
+.logo{}
+.logo img{
+    height: 67px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #DA924E;
+    display: inline-block;
+    margin-top: 14px;
+    line-height: 30px;
+}
+
+.menu{}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.menu ul li a{
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    padding: 16px 19px;
+    line-height: 57px;
+    color: #333333;
+    text-decoration: none;
+    height: 64px;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #0F2444;
+}
+/* contact-section */
+.contact-section{
+    margin-bottom: 45px;
+}
+.title{
+}
+.title h2{
+    font-size: 24px;
+    font-weight: 100;
+    color: #0F2444;
+    border-bottom: 1px solid rgba(0, 184, 148,.3);
+    line-height: 3;
+    padding-top: 40px;
+}
+/* contact-system */
+.contact-system{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 155px 0 rgb(0 0 0 / 10%);
+}
+.contact-heding{
+    background-color: rgba(223, 230, 233, .2);
+    border-bottom: 2px solid #F0F1FA;
+    height: 60px;
+    /* border-radius: 10px 10px 0 0; */
+}
+.contact-heding p{
+    font-size: 15px;
+    color: #b2bec3;
+    line-height: 20px;
+    padding: 9px 25px;
+}
+
+.contact-info{
+    background-color: rgba(223, 230, 233, .2);
+    height: 60px;
+    border-bottom: 2px solid #F0F1FA;
+}
+.contsct-name{
+    font-size: 20px;
+    padding: 0px 25px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.contact-number{
+    padding: 0px 25px;
+    color: #DA924E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+}
+/* refunt-system */
+.refunt-system{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 155px 0 rgb(0 0 0 / 10%);
+}
+.refunt-heade{
+    background-color: rgba(223, 230, 233, .2);
+    border-bottom: 2px solid #F0F1FA;
+    height: 60px;
+}
+.refunt-heade p{
+    font-size: 15px;
+    color: #b2bec3;
+    line-height: 40px;
+    padding: 9px 25px;
+}
+.refunt-item{}
+.refunt-item-1{
+    background-color: rgba(223, 230, 233, .2);
+}
+.refunt-item-1 p{
+    color: #333333;
+    padding: 40px 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.refunt-btn{
+    background-color: rgba(223, 230, 233, .2);
+}
+.refunt-btn .btn-refund{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    border: none;
+    color: #DA924E;
+    letter-spacing: 0.1445px;
+    padding: 16px 25px;
+}
+/* technical-section */
+.technical-section{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 155px 0 rgb(0 0 0 / 10%);
+}
+.technical-hader{
+    background-color: rgba(223, 230, 233, .2);
+    border-bottom: 2px solid #F0F1FA;
+    height: 60px;
+}
+.technical-hader p{
+    font-size: 15px;
+    color: #b2bec3;
+    line-height: 40px;
+    padding: 9px 25px;
+}
+.technical-items{
+    background-color: rgba(223, 230, 233, .2);
+}
+.contact-names{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px;
+}
+.technical-email a{
+    color: #DA924E;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px;
+    line-height: 55px;
+}
+/* other-section */
+.other-section{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 155px 0 rgb(0 0 0 / 10%);
+}
+.btn-wrap{
+    background-color: rgba(223, 230, 233, .2);
+}
+.btn-terms{
+    font-size: 18px;
+    font-weight: 700;
+    color: #DA924E;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    padding: 20px 25px;
+    padding-bottom: 0;
+    letter-spacing: 0.1445px;
+}
+.btn-privacy{
+    font-size: 18px;
+    font-weight: 700;
+    color: #DA924E;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    padding: 20px 25px;
+    letter-spacing: 0.1445px;
+}
+/* payment-logo */
+.payment-logo{
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+}
+.all-logo{
+    display: flex;
+}
+.bkash-logo img{
+    width: 115px;
+    margin-right: 35px;
+}
+.nagat-logo img{
+    width: 127px;
+    margin-right: 35px;
+}
+.rocket-loto img{
+    width: 115px;
+    margin-right: 35px;
+}
+.master-logo img{
+    width: 112px;
+    margin-right: 35px;
+}
+.dbbl-logo img{
+    width: 98px;
+}
+/* footer-section */
+/* footer-section */
+/* footer-section */
+.footer-section{
+    border-top: 3px solid #009432;
+    margin-top: 150px;
+    background-color: #dfe6e9;
+}
+.footer-all{
+    padding: 30px 0;
+}
+.rail-logo-text{
+    margin-right: 20px;
+}
+.rail-logo-text img{
+    width: 46px;
+}
+.text .railway-text{
+    font-size: 24px;
+    color: #DA924E;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.text .bangla-text{
+    color: #006747;
+    font-size: 13px;
+    text-align: center;
+}
+.text.left {
+    margin-right: 180px;
+}
+
+.rall-footer-url{
+    margin-right: 225px;
+    padding-top: 7px;
+}
+.rall-footer-url a{
+    font-size: 13px;
+    color: #006747;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.power-by{}
+.power-by p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.powered-company{
+    font-size: 22px;
+    font-weight: 600;
+    color: #006747;
+    padding-top: 6px;
+}

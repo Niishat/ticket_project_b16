@@ -13,6 +13,45 @@ h1,h2,h3,h4,h5,h6,a{
     color: #F07C19 !important;
     font-weight: 500;
 }
+
+/*  */
+/* contact footer */
+/* contact footer */
+
+.mid-content{
+  max-width: 1200px;
+  margin: auto;
+}
+    .clear::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+img{
+  max-width: 100%;
+}
+.t-center{
+  text-align: center;
+}
+.t-left{
+  text-align: left;
+}
+.t-right{
+  text-align: right;
+}
+    .left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+
+/*  */
+
+/* Header Logo Size  */
+/* Header Logo Size  */
+/* Header Logo Size  */
 /* Header Logo Size  */
 .gobuslogo img{
     height: 60px;
@@ -129,3 +168,61 @@ ul.our-primary-menu li a:hover{
   .select-ticket-plan img{
     height: 160px;
   }
+
+
+
+  /*                                      Footer                                   */
+  /*                                      Footer                                   */
+  /*                                      Footer                                   */
+  /* footer-section */
+.footer-section{
+  border-top: 3px solid #009432;
+  margin-top: 150px;
+  background-color: #dfe6e9;
+}
+.footer-all{
+  padding: 30px 0;
+}
+.rail-logo-text{
+  margin-right: 20px;
+}
+.rail-logo-text img{
+  width: 46px;
+}
+.text .railway-text{
+  font-size: 24px;
+  color: #DA924E;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.text .bangla-text{
+  color: #006747;
+  font-size: 13px;
+  text-align: center;
+}
+.text.left {
+  margin-right: 180px;
+}
+
+.rall-footer-url{
+  margin-right: 225px;
+  padding-top: 7px;
+}
+.rall-footer-url a{
+  font-size: 13px;
+  color: #006747;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.power-by{}
+.power-by p{
+  font-size: 15px;
+  font-weight: 500;
+}
+.powered-company{
+  font-size: 22px;
+  font-weight: 600;
+  color: #006747;
+  padding-top: 6px;
+}
