@@ -148,3 +148,29 @@ ul.our-primary-menu li a:hover{
   /*                                      Footer                                   */
   /*                                      Footer                                   */
   /* footer-section */
+  .footer-div{
+    height: 125px;
+    background-color: #dfe6e9;
+  }
+
+
+  .footer-icon img{
+    height: 50px;
+    display: flex;
+    
+}
+.footer-icon p{
+  color: #006747;
+}
+.footer-mid a{
+  text-decoration: none;
+  color: #006747;
+}
+.footer-right h5{
+  color: black;
+  font-size: 16px;
+}
+.footer-right h2{
+  color: #006747;
+  font-size: 20px;
+}
