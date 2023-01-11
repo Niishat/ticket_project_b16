@@ -135,14 +135,32 @@ ul.our-primary-menu li a:hover{
   /* -----------------------------------------     ticket from - too      ------------------------------------- */
   /* -----------------------------------------                         ------------------------------------- */
   .ticket-start-end{
-    background: rgb(223, 219, 219);
+    
     height: 300px;
   }
   .select-ticket-plan img{
     height: 160px;
   }
 
+  /* <!------------------------------------     jaurney search                 ----------------------------->
+  <!------------------------------------     jaurney search                 -----------------------------> */
+  .search-bus{
 
+  }
+.journey-date{
+  width: 50%;
+}
+.journey-search-btn{
+  width: 100%;
+  background: #006747;
+  color: white;
+  border: transparent;
+  border-radius: 7px;
+}
+  .Weather img{
+    width: 100%;
+    border-radius: 5px;
+  }
 
   /*                                      Footer                                   */
   /*                                      Footer                                   */
@@ -165,6 +183,8 @@ ul.our-primary-menu li a:hover{
 .footer-mid a{
   text-decoration: none;
   color: #006747;
+  font-size: 14px;
+  font-weight: 500;
 }
 .footer-right h5{
   color: black;
@@ -172,5 +192,5 @@ ul.our-primary-menu li a:hover{
 }
 .footer-right h2{
   color: #006747;
-  font-size: 20px;
+  font-size: 23px;
 }
