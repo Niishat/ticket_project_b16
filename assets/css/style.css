@@ -156,7 +156,25 @@ ul.our-primary-menu li a:hover{
   color: white;
   border: transparent;
   border-radius: 7px;
+
+  animation: button-animation 10s ease-in-out infinite;
 }
+@keyframes button-animation {
+  0% {
+    background-color: #2FAA45;
+  }
+  50% {
+    background-color: #F07C19;
+  }
+  100% {
+    background-color: #2FAA45;
+  }
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------ */
   .Weather img{
     width: 100%;
     border-radius: 5px;
@@ -167,10 +185,10 @@ ul.our-primary-menu li a:hover{
   /*                                      Footer                                   */
   /* footer-section */
   .footer-div{
+    border-top: 3px solid #006747;
     height: 125px;
     background-color: #dfe6e9;
   }
-
 
   .footer-icon img{
     height: 50px;
